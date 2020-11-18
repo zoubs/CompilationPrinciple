@@ -1,0 +1,16 @@
+program re;
+var be,i,count;
+procedure add(x,y);
+	begin
+		if y>0 then
+			count:=count+x;
+		if y>0 then
+			call add(x+1,y-1)
+	end
+begin
+	count:=0;
+	read(be);
+	read(i);
+	call add(be,i);
+	write(count)
+end

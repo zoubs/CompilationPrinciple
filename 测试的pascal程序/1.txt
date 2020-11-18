@@ -1,0 +1,20 @@
+program xi;
+const a:=10;
+var b,c;
+procedure p(x,y);
+begin
+	c:=b+a;
+	write(c);
+	c:=x+y;
+	write(c)
+end
+begin
+	read(b);
+	while b<>0 do
+	begin
+		call p(1,2);
+		read(c);
+		write(2*c);
+		read(b)
+	end
+end
